@@ -8,20 +8,7 @@ namespace src
     {
         static void Main(string[] args)
         {
-            double x=34.1;
-            double y=10.3;
-
-            double result=x+y;
-
-            System.Console.WriteLine(result);
-
-            if (args.Length>0)
-            {
-                 Console.WriteLine($"Hello {args[0]}!"); 
-            }
-            else{
-                Console.WriteLine("Help needed");
-            }
+           
           
         }
     }
